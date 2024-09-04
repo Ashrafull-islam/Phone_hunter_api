@@ -22,17 +22,24 @@
             <button class="btn btn-active btn-accent text-white block mx-auto">Buy Now</button>
         </div>
     </header>
-    <main class="my-40 w-10/12 mx-auto border">
+    <main class="my-40 w-10/12 mx-auto ">
         <div class="text-center">
         <h2 class="text-4xl text-center font-semibold">Search your phone</h2>
         <div class="mx-auto container text-center my-6">   
             <input class="w-[500px] h-[55px] px-4 border rounded-lg" type="text" name="search" id="searchPhone" placeholder="Search Your Phone">
             <button onclick="ClickLoader()" class="btn btn-accent btn-active text-white -ml-2 px-7  h-[55px]">Search</button>
         </div>
+
+        <div class="my-10 hidden" id="Loader">
+            <span class="loading loading-spinner loading-lg"></span>
+
+        </div>
         </div>
 
-        <div id="Card_Container" class="md:grid grid-cols-3">
-            
+        <div id="Card_Container" class="md:grid grid-cols-3 gap-10">
+
+       
+              
         </div>
     </main>
     <footer>
