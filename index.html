@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header class="bg-slate-100	">
+        <div class="flex justify-between p-20">
+            
+            <h2 class="text-2xl font-semibold">Hot Gadgets</h2>
+            <button class="btn btn-active btn-accent text-white font-semibold text-xl">Sign Up</button>
+        </div>
+
+        <div class="my-5 w-4/12 mx-auto pb-28">
+            <h2 class="text-5xl font-semibold">Apple Iphone 13 Pro Max</h2>
+            <p class="text-[18px] opacity-75 my-6 text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humou.</p>
+            <button class="btn btn-active btn-accent text-white block mx-auto">Buy Now</button>
+        </div>
+    </header>
+    <main class="my-40 w-10/12 mx-auto border">
+        <div class="text-center">
+        <h2 class="text-4xl text-center font-semibold">Search your phone</h2>
+        <div class="mx-auto container text-center my-6">   
+            <input class="w-[500px] h-[55px] px-4 border rounded-lg" type="text" name="search" id="searchPhone" placeholder="Search Your Phone">
+            <button onclick="ClickLoader()" class="btn btn-accent btn-active text-white -ml-2 px-7  h-[55px]">Search</button>
+        </div>
+        </div>
+
+        <div id="Card_Container" class="md:grid grid-cols-3">
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/Card.js"></script>
 </body>
 </html>
